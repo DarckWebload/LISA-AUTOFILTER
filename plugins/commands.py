@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝖴ᴘᴅᴀᴛᴇs 📣', url='https://t.me/+Rc9TK3wIf6xjODE9')
+                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+Rc9TK3wIf6xjODE9')
             ],
             [
-                InlineKeyboardButton('𝖧ᴇʟᴘ ⚙️', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ʜᴇʟᴩ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -39,8 +39,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs ➕', url='http://t.me/Dwl_AutoFilterBot?startgroup=true')             
             ],[
-            InlineKeyboardButton('𝖧ᴇʟᴘ ⚙️', callback_data='help'),
-            InlineKeyboardButton('𝖠ʙᴏᴜᴛ 🎊', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -59,7 +59,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "⚠️ Jᴏɪɴ Uᴘᴅᴀᴛᴇ CʜᴀɴɴᴇL ⚠️", url=invite_link.invite_link
+                    "⚙️ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ⚙️", url=invite_link.invite_link
                 )
             ]
         ]
