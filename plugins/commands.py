@@ -77,8 +77,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs ➕', url='http://t.me/Dwl_AutoFilterBot?startgroup=true')        
             ],[
-            InlineKeyboardButton('𝖧ᴇʟᴘ ⚙️', callback_data='help'),
-            InlineKeyboardButton('𝖠ʙᴏᴜᴛ 🎊', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
