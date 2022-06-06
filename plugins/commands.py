@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs ➕', url='http://t.me/Dwl_AutoFilterBot?startgroup=true')             
             ],[
             InlineKeyboardButton('ʜᴇʟᴩ 🦋', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🌺', callback_data='about')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🎊', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -78,7 +78,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs ➕', url='http://t.me/Dwl_AutoFilterBot?startgroup=true')        
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ 🦋', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🌺', callback_data='about')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🎊', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
