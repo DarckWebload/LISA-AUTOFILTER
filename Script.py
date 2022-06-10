@@ -208,7 +208,7 @@ Need to delete lots of messages? That's what purges are for!
 • These commands works on group.
 • These commands can be used by Only admin."""
 
-   RESTRIC_TXT = """Help: <b>Restrictions</b>
+    RESTRIC_TXT = """Help: <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
 
