@@ -478,6 +478,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴛᴛꜱ', callback_data='ttss'),
+            InlineKeyboardButton('yᴛ-ᴛʜᴜᴍʙ', callback_data='ytthumb'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -515,6 +516,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴛᴛꜱ', callback_data='ttss'),
+            InlineKeyboardButton('yᴛ-ᴛʜᴜᴍʙ', callback_data='ytthumb'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -587,9 +589,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "ytthumb":
+        buttons = [[
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.YTTHUMB_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "ttss":
         buttons = [[
-            InlineKeyboardButton('⬅️ 𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
