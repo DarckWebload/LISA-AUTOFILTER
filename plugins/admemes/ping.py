@@ -10,18 +10,12 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 # -- Constants -- #
 ALIVE = "വെറുതെ Alive അടിച്ചു വെറുപ്പിക്കാതട ഞൻ ഇവട ജീവനോടെ ഒക്കെ തന്നെ ണ്ട് MANH ചത്തൊന്നും പോയിട്ടില്ല🥲"
 REPO = "ചോദിക്കേണ്ട തരില്ല 😑..."
-HELP = ""
 # -- Constants End -- #
 
 
 @Client.on_message(filters.command("alive", COMMAND_HAND_LER) & f_onw_fliter)
 async def check_alive(_, message):
     await message.reply_text(ALIVE)
-
-
-@Client.on_message(filters.command("help", COMMAND_HAND_LER) & f_onw_fliter)
-async def help_me(_, message):
-    await message.reply_text(HELP)
 
 
 @Client.on_message(filters.command("ping", COMMAND_HAND_LER) & f_onw_fliter)
