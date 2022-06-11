@@ -486,9 +486,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
-            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats')
+            InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata')
             ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -534,9 +535,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
-            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats')
+            InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata'),
             ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -693,6 +695,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.MANUALFILTER_TXT,
             disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "newdata":
+        buttons = [[
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FILE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
