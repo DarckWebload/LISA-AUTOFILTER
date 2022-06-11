@@ -481,7 +481,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook')
             ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
-            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ᴜʀʟ-sʜᴏʀᴛ', callback_data='urlshort')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -521,7 +522,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook')
             ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
-            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ᴜʀʟ-sʜᴏʀᴛ', callback_data='urlshort')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
@@ -611,6 +613,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOOK_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "urlshort":
+        buttons = [[
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.URLSHORT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
