@@ -476,10 +476,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏʀᴏɴᴀ ', callback_data='corona'),
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴛᴛꜱ', callback_data='ttss'),
             InlineKeyboardButton('yᴛ-ᴛʜᴜᴍʙ', callback_data='ytthumb'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data')
+            InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook')
+            ],[
+            InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -516,7 +518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴛᴛꜱ', callback_data='ttss'),
             InlineKeyboardButton('yᴛ-ᴛʜᴜᴍʙ', callback_data='ytthumb'),
-            InlineKeyboardButton('𝖠𝗎𝖽𝗂𝗈-𝖡𝗈𝗈𝗄', callback_data='abook')
+            InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook')
             ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
@@ -598,6 +600,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.YTTHUMB_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "abook":
+        buttons = [[
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ABOOK_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
