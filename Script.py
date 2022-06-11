@@ -58,6 +58,12 @@ Everyone can use this command , if spaming happens bot will automatically ban yo
 
   <b>example</b> : - /covid India"""
     STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
+    YTTHUMB_TXT = """𝖧𝖾𝗅𝗉𝗌 𝖳𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈 𝖳𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅
+    
+🛃 𝖧𝗈𝗐 𝖳𝗈 𝖴𝗌𝖾
+𝖳𝗒𝗉𝖾 /ytthumb 𝖠𝗇𝖽 𝖵𝗂𝖽𝖾𝗈 𝖫𝗂𝗇𝗄
+• 𝖤𝗑𝖺𝗆𝗉𝗅𝖾
+<code>/ytthumb https://youtu.be/OWqbMNrVt5s</code>"""
     TTS_TXT = """Help: <b> TTS 🎤 module:</b>
 
 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾 𝖳𝖾𝗑𝗍 𝖳𝗈 𝖲𝗉𝖾𝖾𝖼𝗁
