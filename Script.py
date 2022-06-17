@@ -35,6 +35,7 @@ Just for a rasam😂"""
 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖧𝖾𝗅𝗉 𝖸𝗈𝗎 𝖳𝗈 𝖤𝖽𝗂𝗍 𝖨𝗆𝖺𝗀𝖾 𝖵𝖾𝗋𝗒 𝖤𝖺𝗌𝗂𝗅𝗒 
 ➤ 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾:
 ➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
+
 𝖬𝖺𝖽𝖾 𝖡𝗒 <a href=https://t.me/DARKWEBLOAD>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
