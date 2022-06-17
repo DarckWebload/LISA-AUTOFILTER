@@ -716,11 +716,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-
-    elif query.data == "pages":
-        await query.answer()
-    elif query.data == "start":
-        buttons = [[
             InlineKeyboardButton('➕ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs ➕', url='http://t.me/Dwl_AutoFilterBot?startgroup=true')             
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ 🦋', callback_data='help'),
