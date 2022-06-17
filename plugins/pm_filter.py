@@ -800,7 +800,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
             ],[
-            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ 🎛️', callback_data='stats'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ ⛔️', callback_data='close_data')
         ]]
@@ -847,13 +847,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
-            InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata'),
+            InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata')
             ],[
             InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source'),
             InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
             ],[
-            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ 🎛️', callback_data='stats'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ ⛔️', callback_data='close_data')
         ]]
