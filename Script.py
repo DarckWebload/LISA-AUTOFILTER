@@ -30,13 +30,14 @@ Just for a rasam😂"""
 • /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
 • /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
 • /dkick - to kick deleted accounts."""
-    IMAGE_TXT = """➤ 𝖧𝖾𝗅𝗉 : 𝖨𝗆𝖺𝗀𝖾
+    IMAGE_TXT = """• Help : Image
 
-𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖧𝖾𝗅𝗉 𝖸𝗈𝗎 𝖳𝗈 𝖤𝖽𝗂𝗍 𝖨𝗆𝖺𝗀𝖾 𝖵𝖾𝗋𝗒 𝖤𝖺𝗌𝗂𝗅𝗒 
-➤ 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾:
-➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
+• This Command Help You To Edit Image Very Easly 😇
 
-𝖬𝖺𝖽𝖾 𝖡𝗒 <a href=https://t.me/DARKWEBLOAD>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>"""
+• Command And Usage :
+• Just Send Me A Image To Edit ✨
+
+➪ Made By : <a href=https://t.me/DARKWEBLOAD>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
 Song Download Module, For Those Who Love Music
@@ -129,14 +130,14 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 • /filters - list all the filters of a chat.
 • /del - delete a specific filter in chat.
 • /delall - delete the whole filters in a chat (chat owner only)."""
-    FILE_TXT = """➤ 𝖧𝖾𝗅𝗉: 𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾 𝖬𝗈𝖽𝗎𝗅𝖾..
+    FILE_TXT = """• 𝖧𝖾𝗅𝗉: 𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾 𝖬𝗈𝖽𝗎𝗅𝖾..
 
-<b>𝖡𝗒 𝖴𝗌𝗂𝗇𝗀 𝖳𝗁𝗂𝗌 𝖬𝗈𝖽𝗎𝗅𝖾 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖲𝗍𝗈𝗋𝖾 𝖥𝗂𝗅𝖾𝗌 𝖨𝗇 𝖬𝗒 𝖣𝖺𝗍𝖺 𝖡𝖺𝗌𝖾 𝖠𝗇𝖽 𝖨 𝖶𝗂𝗅𝗅 𝖦𝗂𝗏𝖾 𝖸𝗈𝗎 𝖠 𝖯𝖾𝗋𝗆𝖾𝗇𝖾𝗇𝗍 𝖫𝗂𝗇𝗄 𝖳𝗈 𝖠𝖼𝖼𝖾𝗌𝗌 𝖳𝗁𝖾 𝖲𝖺𝗏𝖾𝖽 𝖥𝗂𝗅𝖾𝗌.𝖨𝖿 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖳𝗈 𝖠𝖽𝖽 𝖥𝗂𝗅𝖾𝗌 𝖥𝗋𝗈𝗆 𝖠 𝖯𝗋𝗂𝗏𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖸𝗈𝗎 𝖬𝗎𝗌𝗍 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝖽𝗆𝗂𝗇 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈 𝖠𝖼𝖼𝖾𝗌𝗌 𝖥𝗂𝗅𝖾𝗌...</b>
-⪼ 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾𝗌 ›
+• 𝖡𝗒 𝖴𝗌𝗂𝗇𝗀 𝖳𝗁𝗂𝗌 𝖬𝗈𝖽𝗎𝗅𝖾 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖲𝗍𝗈𝗋𝖾 𝖥𝗂𝗅𝖾𝗌 𝖨𝗇 𝖬𝗒 𝖣𝖺𝗍𝖺 𝖡𝖺𝗌𝖾 𝖠𝗇𝖽 𝖨 𝖶𝗂𝗅𝗅 𝖦𝗂𝗏𝖾 𝖸𝗈𝗎 𝖠 𝖯𝖾𝗋𝗆𝖾𝗇𝖾𝗇𝗍 𝖫𝗂𝗇𝗄 𝖳𝗈 𝖠𝖼𝖼𝖾𝗌𝗌 𝖳𝗁𝖾 𝖲𝖺𝗏𝖾𝖽 𝖥𝗂𝗅𝖾𝗌.𝖨𝖿 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖳𝗈 𝖠𝖽𝖽 𝖥𝗂𝗅𝖾𝗌 𝖥𝗋𝗈𝗆 𝖠 𝖯𝗋𝗂𝗏𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖸𝗈𝗎 𝖬𝗎𝗌𝗍 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝖽𝗆𝗂𝗇 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈 𝖠𝖼𝖼𝖾𝗌𝗌 𝖥𝗂𝗅𝖾𝗌...
+• 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾𝗌 ›
 ➪ /plink ›› <b>𝖱𝖾𝗉𝗅𝖺𝗒 𝖳𝗈 𝖠𝗇𝗒 𝖬𝖾𝖽𝗂𝖺 𝖳𝗈 𝖦𝖾𝗍 𝖫𝗂𝗇𝗄.</b>
 ➪ /pbatch ›› <b>𝖴𝗌𝖾 𝖸𝗈𝗎𝗋 𝖬𝖾𝖺𝖽𝗂𝖺 𝖫𝗂𝗇𝗄 𝖳𝗈 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽.</b>
 ➪ /batch ›› <b>𝚃𝖳𝗈 𝖢𝗋𝖾𝖺𝗍𝖾 𝖫𝗂𝗇𝗄𝗌 𝖥𝗈𝗋 𝖬𝗎𝗅𝗍𝗂𝗉𝗅𝖾 𝖥𝗂𝗅𝖾𝗌.</b>
-⪼ 𝖤𝗑𝖺𝗆𝗉𝗅𝖾 ›
+• 𝖤𝗑𝖺𝗆𝗉𝗅𝖾 ›
 <code>/batch https://t.me/+Rc9TK3wIf6xjODE9</code>
 𝖢𝗋𝖾𝖽𝗂𝗍𝗌 ›› <a href=https://t.me/DARKWEBLOAD><b>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</b></a>"""
 
