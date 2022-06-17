@@ -538,10 +538,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝖭𝗈𝗋𝗆𝖺𝗅", callback_data="normalglitch"
+                            text="ɴᴏʀᴍᴀʟ", callback_data="normalglitch"
                         ),
                         InlineKeyboardButton(
-                            text="𝖲𝖼𝖺𝗇 𝖫𝖺𝗂𝗇𝗌", callback_data="scanlineglitch"
+                            text="ꜱᴄᴀɴ ʟᴀɪɴꜱ", callback_data="scanlineglitch"
                         ),
                     ],
                     [
@@ -796,10 +796,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata')
             ],[
-            InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
-            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
-            InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
+            InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
+            ],[
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ 🎛️', callback_data='stats'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ ⛔️', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -846,10 +849,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata'),
             ],[
-            InlineKeyboardButton('ᴄʟᴏsᴇ ⛔️', callback_data='close_data'),
-            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
-            InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
+            InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
+            ],[
             InlineKeyboardButton('🚶‍♀️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ 🎛️', callback_data='stats'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ ⛔️', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
@@ -1419,6 +1425,6 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data=f'spolling#{user}#close_spellcheck')])
-    m = await msg.reply(f"<b>Hey, {msg.from_user.mention}!</b> \n\n<b>🔉I couldn't find anything related to that</b>\n <b>Did you mean any one of these?</b>\n\n<b>🔉 നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക</b>", reply_markup=InlineKeyboardMarkup(btn))
+    m = await msg.reply(f"<b>Hey, {msg.from_user.mention}!</b> \n\n<b>🔉 I couldn't find anything related to that</b>\n <b>Did you mean any one of these?</b>\n\n<b>🔉 നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക</b>", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
     await m.delete()
