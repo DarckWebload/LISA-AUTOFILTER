@@ -809,7 +809,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata')
             ],[
-            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='sorse'),
             InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
             ],[
@@ -862,7 +862,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='newdata')
             ],[
-            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='sorse'),
             InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
             ],[
@@ -1334,6 +1334,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("⚠️ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠️\n............... \n\nᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴀꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ/sᴇʀɪᴇs ғɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ", True)
     elif query.data == 'close':
         await query.answer("🗑️ ᴛʜɪꜱ ᴍᴀꜱꜱᴀɢᴇ ʜᴀꜱ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ", True)
+    elif query.data == 'sorse':
+        await query.answer("ᴛʜɪs ʙᴏᴛ ɴᴏᴛ ᴀ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴩʀᴏᴊᴇᴄᴛ 🤧", True)
     try: await query.answer('Your Results are there in Filter Button') 
     except: pass
            
