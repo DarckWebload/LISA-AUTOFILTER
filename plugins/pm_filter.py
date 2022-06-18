@@ -1336,7 +1336,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("🗑️ ᴛʜɪꜱ ᴍᴀꜱꜱᴀɢᴇ ʜᴀꜱ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ\n\n @DARKWEBLOAD", True)
     elif query.data == 'sorse':
         await query.answer("ᴛʜɪs ʙᴏᴛ ɴᴏᴛ ᴀ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴩʀᴏᴊᴇᴄᴛ 🤧", True)
-    try: await query.answer('Your Results are there in Filter Button') 
     except: pass
            
 async def auto_filter(client, msg, spoll=False):
