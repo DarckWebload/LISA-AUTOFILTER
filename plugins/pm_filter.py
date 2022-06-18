@@ -166,12 +166,12 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'📽️ {search} ', 'dupe')
+            InlineKeyboardButton(f'📽️ {search} 📽️', 'dupe')
         ]
     )
     btn.insert(1,
         [ 
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
+            InlineKeyboardButton(f'ᴄʟᴏsᴇ', 'close_data'),
             InlineKeyboardButton(f'ᴛɪᴘs', 'tips'),
             InlineKeyboardButton(f'ɪɴғᴏ', 'dwl')
         ]
@@ -1332,6 +1332,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
     elif query.data == 'dwl':
         await query.answer("ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴀꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ.\nɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ/sᴇʀɪᴇs ғɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ", True)
+    elif query.data == 'close_data':
+        await query.answer("ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴀꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ.\nɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ/sᴇʀɪᴇs ғɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ", True)
     try: await query.answer('Your Results are there in Filter Button') 
     except: pass
            
@@ -1379,12 +1381,12 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'📽️ {search} ', 'dupe')
+            InlineKeyboardButton(f'📽️ {search} 📽️', 'dupe')
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
+            InlineKeyboardButton(f'ᴄʟᴏsᴇ', 'close_data'),
             InlineKeyboardButton(f'ᴛɪᴘs', 'tips'),
             InlineKeyboardButton(f'ɪɴғᴏ', 'dwl')
         ]
