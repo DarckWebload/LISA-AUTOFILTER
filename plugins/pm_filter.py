@@ -166,7 +166,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'♨📽️ {search} ', 'dupe')
+            InlineKeyboardButton(f'📽️ {search} ', 'dupe')
         ]
     )
     btn.insert(1,
@@ -1394,7 +1394,7 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"📋 1/{round(int(total_results)/7)}",callback_data="pages"), InlineKeyboardButton(text="𝖭ᴇxᴛ ➡️",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"📋 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝖭ᴇxᴛ ➡️",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
