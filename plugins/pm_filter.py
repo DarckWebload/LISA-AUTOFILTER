@@ -1330,6 +1330,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == 'info':
         await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
+    elif query.data == 'dwl':
+        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
     try: await query.answer('Your Results are there in Filter Button') 
     except: pass
            
@@ -1384,7 +1386,7 @@ async def auto_filter(client, msg, spoll=False):
         [
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
             InlineKeyboardButton(f'sᴇʀɪᴇs', 'info'),
-            InlineKeyboardButton(f'ᴛɪᴘs', 'tips')
+            InlineKeyboardButton(f'ᴛɪᴘs', 'dwl')
         ]
     )
 
