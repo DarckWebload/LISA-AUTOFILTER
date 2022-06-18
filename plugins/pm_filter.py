@@ -1331,14 +1331,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'tips':
         await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
            
-            await query.message.edit_reply_markup(reply_markup)
-    elif query.data == "close":
-        await query.message.delete()
-    elif query.data == 'info':
-        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
-        except: pass
-      
-    
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
