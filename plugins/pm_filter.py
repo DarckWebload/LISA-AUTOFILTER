@@ -166,7 +166,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'♨️ {search} ♨️ ', 'dupe')
+            InlineKeyboardButton(f'♨📽️ {search} ', 'dupe')
         ]
     )
     btn.insert(1,
@@ -177,12 +177,12 @@ async def next_page(bot, query):
         ]
     )
 
-    if 0 < offset <= 7:
+    if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
         off_set = None
     else:
-        off_set = offset - 7
+        off_set = offset - 10
     if n_offset == 0:
         btn.append(
             [InlineKeyboardButton("🚶‍♀️ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📋 𝖯ᴀɢᴇs {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
@@ -1378,7 +1378,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'♨️ {search} ♨️ ', 'dupe')
+            InlineKeyboardButton(f'📽️ {search} ', 'dupe')
         ]
     )
     btn.insert(1,
@@ -1394,7 +1394,7 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"📋 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝖭ᴇxᴛ ➡️",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"📋 1/{round(int(total_results)/7)}",callback_data="pages"), InlineKeyboardButton(text="𝖭ᴇxᴛ ➡️",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
