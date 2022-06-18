@@ -1504,11 +1504,11 @@ async def advantage_spell_chok(msg):
         hmm = InlineKeyboardMarkup(
         [
             [
-                 InlineKeyboardButton("🕵️‍♂️ Search On Google 🕵️‍♂️", url=f"https://google.com/search?q={search}")
+                 InlineKeyboardButton("🕵️‍♂️ sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ 🕵️‍♂️", url=f"https://google.com/search?q={search}")
             ]
         ]
     )
-        k = await msg.reply(f"<b>𝖧𝖾𝗒, {msg.from_user.mention}!..  𝖸𝗈𝗎𝗋 𝖶𝗈𝗋𝖽 𝖨𝗌 𝖭𝗈 𝖬𝗈𝗏𝗂𝖾/𝖲𝖾𝗋𝗂𝖾𝗌 𝖱𝖾𝗅𝖺𝗍𝖾𝖽 𝖳𝗈 𝖳𝗁𝖾 𝖦𝗂𝗏𝖾𝗇 𝖶𝗈𝗋𝗅𝖽 𝖶𝖺𝗌 𝖥𝗈𝗎𝗇𝖽 🥺 𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗈 𝖳𝗈 𝖦𝗈𝗈𝗀𝗅𝖾 𝖠𝗇𝖽 𝖢𝗈𝗇𝖿𝗂𝗋𝗆 𝖳𝗁𝖾 𝖢𝗈𝗋𝗋𝖾𝖼𝗍 𝖲𝗉𝖾𝗅𝗅𝗂𝗇𝗀 🥺🙏</b>", reply_markup=hmm)
+        k = await msg.reply(f"<i><b>hey, {msg.from_user.mention}!..  your word is no movie/series related to the given word was found 🥺 please go to google and conforme the correct spelling 🥺🙏</b></i>", reply_markup=hmm)
         await asyncio.sleep(60)
         await k.delete()
         return
@@ -1520,6 +1520,6 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data=f'spolling#{user}#close_spellcheck')])
-    m = await msg.reply(f"<b>Hey, {msg.from_user.mention}!</b> \n\n<b>🔉 I couldn't find anything related to that</b>\n <b>Did you mean any one of these?</b>\n\n<b>🔉 നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക</b>", reply_markup=InlineKeyboardMarkup(btn))
+    m = await msg.reply(f"<i><b>Hey, {msg.from_user.mention}!</b> \n\n<b>🔉 I couldn't find anything related to that</b><\i>\n <i><b>Did you mean any one of these?</b></i></i>\n\n<i><b>🔉 നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക</b></i>", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
     await m.delete()
