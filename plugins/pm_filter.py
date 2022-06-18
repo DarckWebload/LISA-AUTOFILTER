@@ -172,7 +172,7 @@ async def next_page(bot, query):
     btn.insert(1,
         [ 
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
-            InlineKeyboardButton(f'sᴇʀɪᴇs', 'dupe'),
+            InlineKeyboardButton(f'sᴇʀɪᴇs', 'info'),
             InlineKeyboardButton(f'ᴛɪᴘs', 'tips')
         ]
     )
@@ -1330,8 +1330,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == 'tips':
         await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
-    try: await query.answer('Your Results are there in Filter Button') 
-    except: pass
+           
+        reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_reply_markup(reply_markup)
+    elif query.data == "close":
+        await query.message.delete()
+    elif query.data == 'info':
+        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
       
     
 async def auto_filter(client, msg, spoll=False):
@@ -1384,7 +1389,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(1,
         [
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
-            InlineKeyboardButton(f'sᴇʀɪᴇs', 'dupe'),
+            InlineKeyboardButton(f'sᴇʀɪᴇs', 'info'),
             InlineKeyboardButton(f'ᴛɪᴘs', 'tips')
         ]
     )
