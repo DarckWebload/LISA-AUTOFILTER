@@ -173,7 +173,7 @@ async def next_page(bot, query):
         [ 
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
             InlineKeyboardButton(f'sᴇʀɪᴇs', 'info'),
-            InlineKeyboardButton(f'ᴛɪᴘs', 'tips')
+            InlineKeyboardButton(f'ɪɴғᴏ', 'dwl')
         ]
     )
 
@@ -1331,7 +1331,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'info':
         await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
     elif query.data == 'dwl':
-        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛɪɴɢ ꜰᴏʀᴍᴀᴛ\n......................................\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ᴛɪᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴄᴏᴩʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴩ\n\nᴇxᴀᴍᴩʟᴇ : ᴍᴀʟɪᴋ ᴏʀ ᴍᴀʟɪᴋ 2021\n\n© ᴅᴡʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ", True)
+        await query.answer("ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴀꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ.\nɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ/sᴇʀɪᴇs ғɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ", True)
     try: await query.answer('Your Results are there in Filter Button') 
     except: pass
            
@@ -1386,7 +1386,7 @@ async def auto_filter(client, msg, spoll=False):
         [
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
             InlineKeyboardButton(f'sᴇʀɪᴇs', 'info'),
-            InlineKeyboardButton(f'ᴛɪᴘs', 'dwl')
+            InlineKeyboardButton(f'ɪɴғᴏ', 'dwl')
         ]
     )
 
