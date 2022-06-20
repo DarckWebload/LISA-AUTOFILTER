@@ -75,12 +75,13 @@ Everyone can use this command , if spaming happens bot will automatically ban yo
   /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 
   <b>example</b> : - /covid India"""
-    STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
-    YTTHUMB_TXT = """𝖧𝖾𝗅𝗉𝗌 𝖳𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈 𝖳𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅
-    
-🛃 𝖧𝗈𝗐 𝖳𝗈 𝖴𝗌𝖾
-𝖳𝗒𝗉𝖾 /ytthumb 𝖠𝗇𝖽 𝖵𝗂𝖽𝖾𝗈 𝖫𝗂𝗇𝗄
-• 𝖤𝗑𝖺𝗆𝗉𝗅𝖾
+    STICKER_TXT ="""<b>Command</b> /stickerid If you need telegram sticker id click /stickerid to get sticker id (Replay with sticker)"""
+    YTTHUMB_TXT = """Help to download any youtube video thumbnail
+
+• How to Use
+Type /ytthumb and video link
+• Example
+
 <code>/ytthumb https://youtu.be/OWqbMNrVt5s</code>"""
     REPORT_TXT = """➤ 𝖧𝖾𝗅𝗉: 𝖱𝖾𝗉𝗈𝗋𝗍 ⚠️
 
