@@ -132,16 +132,21 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 • /filters - list all the filters of a chat.
 • /del - delete a specific filter in chat.
 • /delall - delete the whole filters in a chat (chat owner only)."""
-    FILE_TXT = """• 𝖧𝖾𝗅𝗉: 𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾 𝖬𝗈𝖽𝗎𝗅𝖾..
+    FILE_TXT = """• Help : file store module
 
-• 𝖡𝗒 𝖴𝗌𝗂𝗇𝗀 𝖳𝗁𝗂𝗌 𝖬𝗈𝖽𝗎𝗅𝖾 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖲𝗍𝗈𝗋𝖾 𝖥𝗂𝗅𝖾𝗌 𝖨𝗇 𝖬𝗒 𝖣𝖺𝗍𝖺 𝖡𝖺𝗌𝖾 𝖠𝗇𝖽 𝖨 𝖶𝗂𝗅𝗅 𝖦𝗂𝗏𝖾 𝖸𝗈𝗎 𝖠 𝖯𝖾𝗋𝗆𝖾𝗇𝖾𝗇𝗍 𝖫𝗂𝗇𝗄 𝖳𝗈 𝖠𝖼𝖼𝖾𝗌𝗌 𝖳𝗁𝖾 𝖲𝖺𝗏𝖾𝖽 𝖥𝗂𝗅𝖾𝗌.𝖨𝖿 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖳𝗈 𝖠𝖽𝖽 𝖥𝗂𝗅𝖾𝗌 𝖥𝗋𝗈𝗆 𝖠 𝖯𝗋𝗂𝗏𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖸𝗈𝗎 𝖬𝗎𝗌𝗍 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝖽𝗆𝗂𝗇 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈 𝖠𝖼𝖼𝖾𝗌𝗌 𝖥𝗂𝗅𝖾𝗌...
-• 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾𝗌 ›
-➪ /plink ›› <b>𝖱𝖾𝗉𝗅𝖺𝗒 𝖳𝗈 𝖠𝗇𝗒 𝖬𝖾𝖽𝗂𝖺 𝖳𝗈 𝖦𝖾𝗍 𝖫𝗂𝗇𝗄.</b>
-➪ /pbatch ›› <b>𝖴𝗌𝖾 𝖸𝗈𝗎𝗋 𝖬𝖾𝖺𝖽𝗂𝖺 𝖫𝗂𝗇𝗄 𝖳𝗈 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽.</b>
-➪ /batch ›› <b>𝚃𝖳𝗈 𝖢𝗋𝖾𝖺𝗍𝖾 𝖫𝗂𝗇𝗄𝗌 𝖥𝗈𝗋 𝖬𝗎𝗅𝗍𝗂𝗉𝗅𝖾 𝖥𝗂𝗅𝖾𝗌.</b>
-• 𝖤𝗑𝖺𝗆𝗉𝗅𝖾 ›
-<code>/batch https://t.me/+Rc9TK3wIf6xjODE9</code>
-𝖢𝗋𝖾𝖽𝗂𝗍𝗌 ›› <a href=https://t.me/DARKWEBLOAD><b>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</b></a>"""
+• By using this module you can store files in my database and i will give you a permenent link to access the saved files.if you want to add files from a private channel you must make me admin on the channel to access files...
+
+• <b>Commands And Usage</b> :
+
+➪ /plink : replay to any media to get link.
+
+➪ /pbatch : use your meadia link to this command.
+
+➪ /batch : to creat links for multiple files. 
+• Example :
+/batch https://t.me/+Rc9TK3wIf6xjODE9
+
+Credits : <a href=https://t.me/DARKWEBLOAD><b>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</b></a>"""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
